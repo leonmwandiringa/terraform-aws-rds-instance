@@ -1,6 +1,6 @@
 resource "aws_db_instance" "default" {
   identifier            = var.database_identifier
-  name                  = var.database_name
+  db_name                  = var.database_name
   username              = var.database_identifier
   password              = var.database_password
   port                  = var.database_port
